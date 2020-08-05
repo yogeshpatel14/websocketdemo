@@ -28,7 +28,7 @@ class App extends Component {
   }
 
   solution2() {
-    let socket = new WebSocket("wss://mediacp.mycom.world:6808");
+    let socket = new WebSocket("wss://mediacp.mycom.world:8002");
     socket.binaryType = "arraybuffer";
 
     socket.onopen = function (e) {
